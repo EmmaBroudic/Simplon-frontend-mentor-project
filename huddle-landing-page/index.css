@@ -33,21 +33,23 @@ header {
     justify-content: space-between;
 }
 
-#button-header {
+header button {
     font-family: PoppinsMedium;
     font-size: 17px;
     color: #fd3f92;
     background-color: white;
     border-radius: 30px;
-    box-shadow: 3px 3px 10px #70726e;
-    border: #fd3f92;
+    border: #fd3f92 solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 main, section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 80px;
     text-align: center;
 }
 
@@ -76,10 +78,10 @@ main p {
     height: auto;
     margin-bottom: 30px;
 }
-
+/*
 aside, section {
     margin: 50px;
-}
+}*/
 
 aside {
     display: flex;
@@ -152,6 +154,10 @@ article {
     width: 500px;
     height: auto;
     margin: 40px;
+}
+
+section img {
+    width: 100%;
 }
 
 footer {
