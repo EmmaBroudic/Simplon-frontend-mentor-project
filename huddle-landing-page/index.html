@@ -9,10 +9,10 @@
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!--<style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style>-->
 </head>
 <body>
   <header>
@@ -24,7 +24,7 @@
     <p>Huddle re-imagines the way we build communities. You have a voice, but so does you audience. Create connections with your users as your engage in genuine discussions.</p>
     <button class="pink-buttons">Get start for free</button>
     <img id="main-picture" src="images/screen-mockups.svg" alt="">
-    <div class="blocs-main-and-footer">
+    <div id="blocs-main">
       <figure>
         <img src="images/icon-communities.svg" alt="">
         <p>1.4k+</p>
@@ -66,9 +66,21 @@
     <img src="images/bg-footer-top-desktop.svg" alt="">
   </section>
   <footer>
-    <div class="blocs-main-and-footer">
-      <p>bloc 1</p>
-      <p>bloc 2</p>
+    <div class="bloc-footer">    
+      <img id="footer-logo" src="images/logo.svg" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img class="icon-footer" src="images/icon-phone.svg" alt="">
+      <p>Phone: +1-543-123-4567</p>
+      <img class="icon-footer" src="images/icon-email.svg" alt="">
+      <p>example@huddle.com</p>
+    </div>
+    <div class="bloc-footer">
+      <p>NEWSLETTER</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <form action="#" method="post">
+        <input type="email" name="email" id="email">
+        <input type="submit" value="Envoyer"/>
+      </form>
     </div>
   </footer>
 </body>
