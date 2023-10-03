@@ -190,7 +190,15 @@ footer p {
     color: white;
 }
 
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .icon-footer {
     width: 20px;
-    height: auto;
+    height: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
 }
