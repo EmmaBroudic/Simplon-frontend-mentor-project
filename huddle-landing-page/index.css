@@ -92,7 +92,6 @@ aside, section {
 aside {
     display: flex;
     flex-direction: column;
-    /*background-image: url('bg-section-top-desktop-1.svg');*/
 }
 
 h1 {
@@ -140,7 +139,7 @@ figcaption {
 article {
     display: flex;
     flex-direction: row;
-    margin: 30px;
+    padding: 50px;
 }
 
 .aside-blocs {
@@ -155,6 +154,18 @@ article {
 #aside-article-two {
     display: flex;
     flex-direction: row-reverse;
+}
+
+#aside-img1 {
+    width: 100%;
+}
+
+#aside-img2 {
+    transform: rotate(180deg);
+}
+
+#article-three {
+    background-color: #f5faff;
 }
 
 .img-aside {
