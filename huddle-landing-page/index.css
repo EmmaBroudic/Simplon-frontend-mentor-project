@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'PoppinsBold';
-    src: url('fonts/Poppins-Bold.ttf') format('truetype');
+    src: url('fonts/Poppins-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
@@ -24,15 +24,57 @@ body {
 }
 
 header {
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-main {
+#button-header {
+    font-family: PoppinsMedium;
+    font-size: 17px;
+    color: #fd3f92;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px #70726e;
+    border: #fd3f92;
+}
+
+main, section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 80px;
     text-align: center;
+}
+
+main p {
+    width: 40%;
+}
+
+.pink-buttons {
+    font-family: PoppinsMedium;
+    font-size: 17px;
+    color: white;
+    background-color: #fd3f92;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px #70726e;
+    border: none;
+    width: 350px;
+    margin: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#main-picture {
+    width: 80%;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 aside, section {
@@ -45,14 +87,14 @@ aside {
 }
 
 h1 {
-    font-family: PoppinsMedium;
+    font-family: PoppinsBold;
     font-size: 30px;
     color: #003333;
 }
 
 h2 {
-    font-family: PoppinsMedium;
-    font-size: 20px;
+    font-family: PoppinsBold;
+    font-size: 25px;
     color: #003333;
 }
 
@@ -60,6 +102,13 @@ p {
     font-family: PoppinsRegular;
     font-size: 15px;
     color: #003333;
+}
+
+.blocs-main-and-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 
 figure {
@@ -82,22 +131,27 @@ figcaption {
 article {
     display: flex;
     flex-direction: row;
+    margin: 30px;
 }
 
 .aside-blocs {
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 120px;
 }
 
 #aside-article-two {
     display: flex;
     flex-direction: row-reverse;
-
 }
 
 .img-aside {
     width: 500px;
     height: auto;
+    margin: 40px;
 }
 
 footer {
@@ -106,10 +160,4 @@ footer {
 
 footer p {
     color: white;
-}
-
-.blocs-main-and-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
