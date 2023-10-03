@@ -92,6 +92,7 @@ aside, section {
 aside {
     display: flex;
     flex-direction: column;
+    /*background-image: url('bg-section-top-desktop-1.svg');*/
 }
 
 h1 {
@@ -199,7 +200,6 @@ footer p {
 .footer-contact {
     display: flex;
     flex-direction: row;
-    width: 100%;
 }
 
 .icon-footer {
@@ -207,6 +207,14 @@ footer p {
     height: 20px;
     padding-right: 20px;
     padding-top: 13px;
+}
+
+.awesome-font-footer {
+    color: white;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-right: 20px;
+    text-align: left;
 }
 
 #footer-newsletter {
