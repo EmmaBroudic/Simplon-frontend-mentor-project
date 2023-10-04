@@ -296,6 +296,7 @@ body {
     main, section {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
         text-align: center;
         width: 100%;
@@ -327,12 +328,8 @@ body {
     #main-picture {
         width: 80%;
         height: auto;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
     }
-    /*
-    aside, section {
-        margin: 50px;
-    }*/
     
     aside {
         display: flex;
@@ -344,6 +341,7 @@ body {
         font-size: 28px;
         color: #003333;
         width: 80%;
+        margin-top: 150px;
     }
     
     h2 {
@@ -362,43 +360,50 @@ body {
     #blocs-main {
         display: flex;
         flex-direction: column;
-        width: 80%;
     }
     
     figure {
-        text-align: center;
+        height: 200px;
+        margin-bottom: 80px;
+    }
+
+    figure img {
+        text-align: left;
+        margin: 0;
     }
     
     figure p {
         font-family: PoppinsBold;
-        font-size: 50px;
+        font-size: 80px;
+        text-align: center;
         color: #003333;
+        width: 100%;
+        margin: 0;
     }
     
     figcaption {
         font-family: PoppinsMedium;
         font-size: 16px;
+        text-align: center;
         color: #003333;
         opacity: 0.3;
+        margin: 0;
     }
     
     article {
         display: flex;
         flex-direction: column-reverse;
-        padding: 50px;
+        align-items: center;
     }
 
     article p {
         text-align: center;
+        margin: 0;
     }
     
     .aside-blocs {
         display: flex;
         flex-direction: column;
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-bottom: 40px;
-        margin-top: 120px;
     }
     
     #aside-article-two {
@@ -421,7 +426,8 @@ body {
     .img-aside {
         width: 300px;
         height: auto;
-        margin: 20px;
+        text-align: center;
+        margin: 0;
     }
     
     section img {
