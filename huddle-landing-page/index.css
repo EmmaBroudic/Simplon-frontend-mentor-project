@@ -1,4 +1,4 @@
-/*CSS communs aux versions Desktop et Mobile*/
+/*CSS communs aux versions Desktop, Tablette et Mobile*/
 
 @font-face {
     font-family: 'OpenSans';
@@ -269,6 +269,8 @@ footer p {
     }
 }
 
+/* CSS seulement appliqués à la version Tablette */
+
 @media screen and (min-width: 757px) and (max-width: 1000px) {
     header {
         margin-top: 30px;
@@ -447,6 +449,7 @@ footer p {
     }
 }
 
+/* CSS seulement appliqués à la version Mobile*/
 
 @media screen and (min-width: 376px) and (max-width: 756px) {
     header {
@@ -631,7 +634,7 @@ footer p {
     }
 }
 
-/* CSS seulement appliqués à la version Mobile*/
+/* CSS seulement appliqués à la version petit Mobile*/
 
 @media screen and (max-width: 375px) {
     header {
