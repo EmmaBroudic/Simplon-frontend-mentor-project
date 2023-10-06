@@ -157,6 +157,10 @@ footer p {
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .pink-buttons:hover {
+        background-color: #ffc0cb;
+    }
     
     #main-picture {
         width: 80%;
@@ -326,6 +330,10 @@ footer p {
         padding-bottom: 15px;
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .pink-buttons:hover {
+        background-color: #ffc0cb;
     }
     
     #main-picture {
@@ -511,6 +519,10 @@ footer p {
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .pink-buttons:hover {
+        background-color: #ffc0cb;
+    }
     
     #main-picture {
         width: 80%;
@@ -695,6 +707,10 @@ footer p {
         padding-bottom: 15px;
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .pink-buttons:hover {
+        background-color: #ffc0cb;
     }
     
     #main-picture {
